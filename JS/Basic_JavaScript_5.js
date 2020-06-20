@@ -79,6 +79,5 @@ function notTrue () {
 }
 
 function notFalse () {
-    var r = !(10 > 12);
     document.getElementById("NotFalse").innerHTML = !(10 > 12);
 }
