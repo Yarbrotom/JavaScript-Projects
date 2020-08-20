@@ -4,7 +4,11 @@
 		<title>jQuery</title>
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	</head>
+        <link rel="stylesheet" type="text/css" href="CSS/jQuery.css"/>
+    </head>
+    <body>
+        <script>document.body.className += 'fade-out';</script>
+
         <script>
         $(document).ready(function() {
             $("html").append(
@@ -26,4 +30,10 @@
         });
 
     </script>
+    <script>
+        $(function() {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+    </body>
 </html>
